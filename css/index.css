@@ -1354,7 +1354,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 14px;
+  --global-font-size: 16px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
@@ -1488,6 +1488,13 @@ a {
 }
 a:hover {
   color: #49b1f5;
+}
+#site-title,
+#site-subtitle,
+.site-name,
+#aside-content .author-info__name,
+#aside-content .author-info__description {
+  font-family: 20px;
 }
 .is-center {
   text-align: center;
@@ -3195,7 +3202,7 @@ h1.page-title + .tag-cloud-list {
   transition: all 0.5s;
 }
 #page-header.full_page {
-  height: 100vh;
+  height: 800px;
   background-attachment: fixed;
 }
 #page-header.full_page #site-info {
